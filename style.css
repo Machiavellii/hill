@@ -122,6 +122,19 @@ section h6 {
 }
 
 /* CONTACT SECTION */
+#contact {
+  position: relative;
+}
+.numbers {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  color: #fff;
+  font-size: 1.3rem;
+}
+.numbers img {
+  width: 1.5rem;
+}
 .form-control:focus {
   -webkit-box-shadow: unset;
   box-shadow: unset;
@@ -172,6 +185,9 @@ footer {
 }
 
 @media (max-width: 500px) {
+  .numbers {
+    font-size: 0.7rem;
+  }
   .back-to-top {
     right: 1rem;
     bottom: 1rem;
