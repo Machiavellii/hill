@@ -126,11 +126,8 @@ section h6 {
   position: relative;
 }
 .numbers {
-  position: absolute;
-  top: 5%;
-  left: 5%;
-  color: #fff;
   font-size: 1.3rem;
+  text-align: center;
 }
 .numbers img {
   width: 1.5rem;
